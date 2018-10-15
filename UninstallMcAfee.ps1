@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-# Must first uninstall frminst.exe in order to unlock the full uninstall for McAfee
+# Must first uninstall through frminst.exe in order to unlock the full uninstall for McAfee
 
 # Find frminst.exe if it exists
 $frminstFindings = @(Get-Childitem -Path C:\ -Recurse -Filter 'frminst.exe' -File -Force -ErrorAction SilentlyContinue)
